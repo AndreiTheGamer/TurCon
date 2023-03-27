@@ -5,12 +5,12 @@ loginForm.addEventListener("submit", (e) => {
 
   let myVerb = document.getElementById("verb");
 
-  document.getElementById("ben").innerHTML = "Ben ";
-  document.getElementById("sen").innerHTML = "Sen ";
-  document.getElementById("o").innerHTML = "O ";
-  document.getElementById("biz").innerHTML = "Biz ";
-  document.getElementById("siz").innerHTML = "Siz ";
-  document.getElementById("onlar").innerHTML = "Onlar ";
+  document.getElementById("ben").innerHTML = " - ";
+  document.getElementById("sen").innerHTML = " - ";
+  document.getElementById("o").innerHTML = " - ";
+  document.getElementById("biz").innerHTML = " - ";
+  document.getElementById("siz").innerHTML = " - ";
+  document.getElementById("onlar").innerHTML = " - ";
 
   if (myVerb.value == "") {
     alert("Introduce un verb!");
