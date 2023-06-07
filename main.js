@@ -18,6 +18,7 @@ loginForm.addEventListener("submit", (e) => {
     const vowels = ["a", "e", "ı", "i", "o", "ö", "u", "ü"];
     const hardCons = ["f", "s", "t", "k", "ç", "ş", "h", "p"];
     var supl = "";
+    var didNotAsk = supl.getElementById("fg-margin fg-lengthy fg-widthy");
     var hard = "";
     if(hardCons .includes(myVerb.value[myVerb.value.length - 1])){
         hard = "t";
